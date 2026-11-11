@@ -466,9 +466,9 @@ function App() {
     <article className="activity-card">
       <div className="activity-image">
         <img
-          src="https://images.unsplash.com/photo-1574629810360-7efbbe195018"
-          alt="Football players participating in a match"
-          loading="lazy"
+            src={`${import.meta.env.BASE_URL}images/aysa-logo.png`}
+  alt="AYSA Official Logo"
+  className="logo-image"
         />
       </div>
 
@@ -645,8 +645,9 @@ function App() {
     <div className="footer-about">
       <div className="footer-logo">
         <img
-          src="/images/aysa-logo.png"
+          src={`${import.meta.env.BASE_URL}images/aysa-logo.png`}
           alt="AYSA Official Logo"
+          className="footer-logo-image"
         />
 
         <h2>Amdallai Youth &amp; Sports Association</h2>

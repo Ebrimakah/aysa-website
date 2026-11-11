@@ -863,11 +863,12 @@ button {
 }
 
 .footer-logo img {
-  width: 75px;
-  height: 75px;
+  width: 82px;
+  height: 82px;
   object-fit: contain;
   background: #ffffff;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .footer-logo h2 {
@@ -929,10 +930,14 @@ button {
    14. TABLET RESPONSIVENESS
 ================================= */
 
-@media (max-width: 1000px) and (min-width: 701px) {
+@media (max-width: 1199px) and (min-width: 701px) {
 
   .navbar {
     padding: 15px 4%;
+  }
+
+  .navbar nav {
+    display: none;
   }
 
   .logo-image {
@@ -987,6 +992,10 @@ button {
     min-height: auto;
     padding: 12px 5%;
     gap: 12px;
+  }
+
+  .navbar nav {
+    display: none;
   }
 
   .logo {
@@ -1130,15 +1139,44 @@ button {
 
   .footer-logo {
     align-items: flex-start;
+    min-width: 0;
   }
 
   .footer-logo h2 {
     font-size: 18px;
+    overflow-wrap: anywhere;
   }
 }
 
 /* =================================
-   16. SMALL MOBILE SCREENS
+   17. DESKTOP NAVIGATION
+================================= */
+
+@media (min-width: 1200px) {
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .navbar nav {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    padding: 0;
+  }
+
+  .navbar nav a {
+    width: auto;
+    padding: 8px 0;
+    border-top: 0;
+    font-size: 13px;
+  }
+}
+
+/* =================================
+   18. SMALL MOBILE SCREENS
 ================================= */
 
 @media (max-width: 420px) {
@@ -1179,4 +1217,14 @@ button {
   .objectives {
     padding: 22px;
   }
+}
+/* =================================
+   FOOTER LOGO
+================================= */
+
+.footer-logo-image {
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
+  display: block;
 }
