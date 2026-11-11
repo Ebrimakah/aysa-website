@@ -285,7 +285,16 @@ button {
 }
 
 .about-card-icon {
-  font-size: 38px;
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  color: #174b35;
+  border: 1px solid #c6a24a;
+  border-radius: 50%;
+  font-size: 17px;
+  font-weight: bold;
   margin-bottom: 18px;
 }
 
@@ -515,7 +524,11 @@ button {
 }
 
 .constitution-icon {
-  font-size: 55px;
+  color: #b08b35;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   margin-bottom: 15px;
 }
 
@@ -742,7 +755,10 @@ button {
 }
 
 .program-icon {
-  font-size: 38px;
+  color: #b08b35;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
   margin-bottom: 20px;
 }
 
@@ -801,7 +817,11 @@ button {
 }
 
 .contact-icon {
-  font-size: 35px;
+  color: #b08b35;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   margin-bottom: 15px;
 }
 

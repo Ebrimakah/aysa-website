@@ -104,12 +104,6 @@ function App() {
     </div>
   </div>
 </section>
-<div className="container my-4">
-  <button className="btn btn-success">
-    Bootstrap Test
-  </button>
-</div>
-
         {/* ABOUT US SECTION */}
 <section className="about" id="about">
   <div className="section-heading">
@@ -135,7 +129,7 @@ function App() {
 
     {/* HISTORY */}
     <article className="about-card">
-      <div className="about-card-icon">🏛️</div>
+      <div className="about-card-icon" aria-hidden="true">H</div>
       <h3>Our History</h3>
       <p>
         AYSA was established through the collective commitment
@@ -147,7 +141,7 @@ function App() {
 
     {/* VISION */}
     <article className="about-card">
-      <div className="about-card-icon">🌍</div>
+      <div className="about-card-icon" aria-hidden="true">V</div>
       <h3>Our Vision</h3>
       <p>
         To build a united, empowered and self-reliant community
@@ -158,7 +152,7 @@ function App() {
 
     {/* MISSION */}
     <article className="about-card">
-      <div className="about-card-icon">🎯</div>
+      <div className="about-card-icon" aria-hidden="true">M</div>
       <h3>Our Mission</h3>
       <p>
         To promote youth empowerment, education, sports,
@@ -340,7 +334,7 @@ function App() {
   </div>
 
   <div className="constitution-content">
-    <div className="constitution-icon">📜</div>
+    <div className="constitution-icon" aria-hidden="true">Document</div>
 
     <h3>Our Constitution, Our Foundation</h3>
 
@@ -537,7 +531,7 @@ function App() {
 
     {/* YOUTH EMPOWERMENT */}
     <article className="program-card">
-      <div className="program-icon">🌱</div>
+      <div className="program-icon" aria-hidden="true">01</div>
 
       <h3>Youth Empowerment</h3>
 
@@ -550,7 +544,7 @@ function App() {
 
     {/* SPORTS AND RECREATION */}
     <article className="program-card">
-      <div className="program-icon">⚽</div>
+      <div className="program-icon" aria-hidden="true">02</div>
 
       <h3>Sports &amp; Recreation</h3>
 
@@ -563,7 +557,7 @@ function App() {
 
     {/* EDUCATION AND SKILLS DEVELOPMENT */}
     <article className="program-card">
-      <div className="program-icon">📚</div>
+      <div className="program-icon" aria-hidden="true">03</div>
 
       <h3>Education &amp; Skills Development</h3>
 
@@ -576,7 +570,7 @@ function App() {
 
     {/* COMMUNITY DEVELOPMENT */}
     <article className="program-card">
-      <div className="program-icon">🤝</div>
+      <div className="program-icon" aria-hidden="true">04</div>
 
       <h3>Community Development</h3>
 
@@ -608,7 +602,7 @@ function App() {
 
     {/* LOCATION */}
     <article className="contact-card">
-      <div className="contact-icon">📍</div>
+      <div className="contact-icon" aria-hidden="true">Location</div>
       <h3>Our Location</h3>
       <p>Amdallai Village, Lower Nuimi</p>
       <p>North Bank Region, The Gambia</p>
@@ -616,21 +610,21 @@ function App() {
 
     {/* EMAIL */}
     <article className="contact-card">
-      <div className="contact-icon">✉️</div>
+      <div className="contact-icon" aria-hidden="true">Email</div>
       <h3>Email Address</h3>
       <p>Official email coming soon.</p>
     </article>
 
     {/* TELEPHONE */}
     <article className="contact-card">
-      <div className="contact-icon">📞</div>
+      <div className="contact-icon" aria-hidden="true">Phone</div>
       <h3>Telephone</h3>
       <p>Official contact number coming soon.</p>
     </article>
 
     {/* GENERAL ENQUIRIES */}
     <article className="contact-card">
-      <div className="contact-icon">🤝</div>
+      <div className="contact-icon" aria-hidden="true">Enquiries</div>
       <h3>General Enquiries</h3>
       <p>
         For membership, partnerships and other enquiries,
