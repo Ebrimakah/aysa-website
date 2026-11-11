@@ -36,9 +36,9 @@ function App() {
       <header className={`navbar ${menuOpen ? 'menu-open' : ''}`}>
         <div className="logo">
           <img
-            src="/images/aysa-logo.png"
-            alt="AYSA Official Logo"
-            className="logo-image"
+             src={`${import.meta.env.BASE_URL}images/aysa-logo.png`}
+  alt="AYSA Official Logo"
+  className="logo-image"
           />
 
           <div>
